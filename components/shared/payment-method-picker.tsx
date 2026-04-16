@@ -26,25 +26,25 @@ const PAYMENT_OPTIONS: PaymentOption[] = [
   {
     id: "ecocash",
     label: "EcoCash",
-    logo: "/logos/ecocash.png",
+    logo: "/number1/logos/ecocash.png",
     bg: "bg-green-50",
   },
   {
     id: "innbucks",
     label: "InnBucks",
-    logo: "/logos/innbucks.png",
+    logo: "/number1/logos/innbucks.png",
     bg: "bg-orange-50",
   },
   {
     id: "onemoney",
     label: "OneMoney",
-    logo: "/logos/onemoney.png",
+    logo: "/number1/logos/onemoney.png",
     bg: "bg-red-50",
   },
   {
     id: "omari",
     label: "Omari",
-    logo: "/logos/omari.png",
+    logo: "/number1/logos/omari.png",
     bg: "bg-blue-50",
   },
   {
