@@ -33,15 +33,15 @@ const router = useRouter()
             <div>Name</div>
             <input placeholder='name' type='text' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
             <div>Surname</div>
-            <input placeholder='surname' type='password' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
+            <input placeholder='surname' type='text' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
             <div>National Id</div>
             <input placeholder='National ID' type='text' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
             <div>Email</div>
             <input placeholder='email' type='text' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
             <div>Password</div>
-            <input placeholder='password' type='text' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
+            <input placeholder='password' type='password' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
             <div>Confirm Password</div>
-            <input placeholder='confirm password' type='text' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
+            <input placeholder='confirm password' type='password' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
         </div>
 
             <button onClick={()=>{router.push('/login')}} style={{width: '350px', backgroundColor: 'rgb(0, 172, 240)', padding: 8, marginTop: 20, marginBottom: 10, borderRadius: 5, fontSize: 18, fontWeight: 650, color: 'rgb(255, 248, 248)'}}> Sign Up </button>
