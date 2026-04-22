@@ -17,7 +17,7 @@ const arialNarrow = localFont({
 const Welcome = () => {
 
  const router = useRouter() 
- const welcomeImage = '/logos/welcome.jpeg'   
+ const welcomeImage = '/number1/logos/welcome.jpeg'   
 
  return (
     <div style = {{backgroundColor: 'white',  minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingLeft: 20, paddingRight: 20}}>
