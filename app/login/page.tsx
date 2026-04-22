@@ -30,7 +30,9 @@ const router = useRouter()
         </div>  
 
         <div style={{display:'flex', flexDirection: 'column', width: '350px'}}>
+            <div>Email:</div>
             <input placeholder='email' type='text' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
+            <div>Password:</div>
             <input placeholder='password' type='password' style={{padding: 10, borderRadius: 10, fontSize: 18, marginBottom: 15, backgroundColor: 'rgb(250, 250, 250)'}}/>
         </div>
 
