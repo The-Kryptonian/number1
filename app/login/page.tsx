@@ -59,7 +59,7 @@ const router = useRouter()
         <div style = {{display: 'flex', flexDirection: 'row', gap: 40, position: 'absolute', bottom: 20}}>
             <img src='/number1/logos/googleIcon.png' alt="Google Icon" style={{width: 40, height: 40, borderRadius: 28}}/>
             <img src='/number1/logos/facebookLogo.png' alt="Facebook Icon" style={{width: 40, height: 40, borderRadius: 28}}/>
-            <img src='/number1/logos/instagramIcon.png' alt="Instagram Icon" style={{width: 40, height: 40, borderRadius: 28}}/>
+            <img src='/number1/logos/InstagramIcon.png' alt="Instagram Icon" style={{width: 40, height: 40, borderRadius: 28}}/>
             <img src='/number1/logos/tiktokIcon.png' alt="TikTok Icon" style={{width: 40, height: 40, borderRadius: 28}}/>
         </div>
         </div> 
