@@ -45,7 +45,7 @@ const router = useRouter()
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: 15, marginTop: 10}}>
             <div>Don't have an account yet? </div>
-            <div style={{color:'rgb(0, 172, 240)'}} onClick={()=>{router.push('/signup')}}>Sign Up</div>
+            <button style={{color:'rgb(0, 172, 240)'}} onClick={()=>{router.push('/signup')}}>Sign Up</button>
         </div>
 
         </div>   
