@@ -24,7 +24,8 @@ const router = useRouter()
         <div style={{position:'relative', top: 40}}>   
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: 30}}>
-            <div style={{width:90, height: 90, borderRadius: 45, backgroundColor: 'rgb(201, 201, 201)'}}></div>
+            <div className={berlinSans.className} style={{border: '1px solid black', borderRadius: 15,width: '90%', height: 55, fontSize: 25, display:'flex', justifyContent: 'center', alignItems: 'center', textShadow: '3px 3px 3px rgb(208, 208, 208)'}}>Z I C R E X</div>
+
             <div style={{fontSize:35, fontWeight: 550, marginTop: 15, marginBottom: 0}} className={berlinSans.className}>Welcome Back!</div>
             <div className={arialNarrow.className} style={{fontSize: 15, marginBottom: 40}}>Sign In to track orders, view order history and more just for you</div>
         </div>  
